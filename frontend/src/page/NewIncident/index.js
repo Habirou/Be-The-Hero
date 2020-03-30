@@ -62,7 +62,7 @@ export default function NewIncident() {
                     <input 
                         placeholder="Titulo do caso"
                         value={title}
-                        onChange={e => setDescription(e.target.value)}
+                        onChange={e => setTitle(e.target.value)}
                     />
             
                     <textarea 
